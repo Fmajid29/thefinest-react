@@ -53,7 +53,7 @@ const Footer = () => {
                     </Col>
                 </Row>
 
-                <Row>
+                <Row className='lastR' >
                     <Col xs={12} md={12}>
 
                         <p>© 2021 Copyright</p>

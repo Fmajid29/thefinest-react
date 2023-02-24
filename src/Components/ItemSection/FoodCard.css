@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 58vh;
+    height: 55vh;
     flex-wrap: wrap;
     background-image: linear-gradient(to bottom, #383838, black);
     text-align: center;
@@ -24,8 +24,8 @@
     border-top-left-radius: 2vh;
 }
 
-.Box h1{
-font-size:2rem;
+.Box h1 {
+    font-size: 2rem;
 }
 
 .Addbtn {

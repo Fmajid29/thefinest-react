@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Hero from './assets/Hero.jpg';
-import './Components/Hero.css';
 import './App.css';
 import Options from "./Components/Options/Options";
 import ItemSection from "./Components/ItemSection/ItemSection";
@@ -13,18 +11,15 @@ function App() {
   return (
 
     <div>
-   <Navbar />
-   
-    <div className="page">
+      <Navbar />
 
-   
-      {/* <img src={Hero} className="HeroImg"/> */}
-      <Header/>
-      <Options/>
-      <ItemSection/>
-      <Videos/>
-      <Footer/>
-    </div>
+      <div className="page">
+        <Header />
+        <Options />
+        <ItemSection />
+        <Videos />
+        <Footer />
+      </div>
     </div>
   );
 }

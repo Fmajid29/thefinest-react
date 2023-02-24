@@ -14,6 +14,9 @@
     flex-direction: column;
     text-align: center;
 }
+.Fcontainer h1{
+    color: #e89d34;
+}
 
 .Fcontainer img {
     height: 13rem;
@@ -44,3 +47,4 @@
 .Fsocials {
     margin-bottom: 2rem;
 }
+
