@@ -8,6 +8,7 @@
   align-items: center;
   background-color: black;
   padding: 1rem 1rem;
+  z-index: 9;
 }
 
 .Bar {
@@ -92,6 +93,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .main {
+    justify-content: space-between;
+  }
   .container {
     display: none;
   }

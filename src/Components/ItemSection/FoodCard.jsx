@@ -5,7 +5,7 @@ import Pepperoni from "../ItemSection/Pepperoni.jpg";
 const FoodCard = () => {
   return (
     <div className="Box">
-      <img src={Pepperoni} />
+      <img src={Pepperoni} alt="img" />
       <h3>CREAMY TIKKA</h3>
       
       <Button className="Addbtn" >ADD</Button>
