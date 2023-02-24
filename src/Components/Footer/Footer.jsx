@@ -19,14 +19,7 @@ const Footer = () => {
         <div className='footer'>
             <Container className='Fcontainer'>
 
-                <Row>
-                    <Col xs={12} md={12} className="Fsocials">
-
-                        <h3>Get connected with us on social networks  <BsInstagram className='Ficons'/> <FaFacebookF className='Ficons'/></h3>
-
-                    </Col>
-
-                </Row>
+           
 
                 <Row>
                     <Col xs={12} md={3} lg={3} className="Fsec Bborder">
@@ -35,14 +28,16 @@ const Footer = () => {
                     <Col xs={12} md={3} className="Bborder">
                         <h1>Information</h1>
                         <p>About Us</p>
-                        <p>Accounts</p>
-                        <p>Managment</p>
+                        <p>Help</p>
                         <p>services</p>
                     </Col>
                     <Col xs={12} md={3} lg={3} className="Bborder">
                         <h1>Useful links</h1>
                         <p><SiGooglemaps className='Ficons'/> Google Maps</p>
-                        <p>Help</p>
+                        <p> <BsInstagram className='Ficons'/> @TheFinestRestraut</p>
+                        <p>   <FaFacebookF className='Ficons'/> @TheFinestRestraut</p>
+                      
+                       
                     </Col>
                     <Col xs={12} md={3} lg={3} className="Bborder">
                         <h1>Contact</h1>

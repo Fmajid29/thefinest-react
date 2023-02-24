@@ -7,7 +7,9 @@ const FoodCard = () => {
     <div className="Box">
       <img src={Pepperoni} />
       <h3>CREAMY TIKKA</h3>
-      <Button className="Addbtn">ADD</Button>
+      
+      <Button className="Addbtn" >ADD</Button>
+      
     </div>
   );
 };

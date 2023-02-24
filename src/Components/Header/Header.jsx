@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header">
       <Carousel className="Carouselmain">
-        <Carousel.Item interval={2000}>
+        <Carousel.Item interval={500}>
           <img
             height={500}
             className="d-block w-100"
@@ -20,7 +20,7 @@ function Header() {
             <p>Our Taste Is Our Identity</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-100"
             height={500}
@@ -32,7 +32,7 @@ function Header() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption> */}
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-100"
             src={ex}
