@@ -1,18 +1,15 @@
 .ItemMain {
-    padding: 2rem;
-    background-color: black;
-    color: antiquewhite;
-    display: flex;
-    border: 1vh solid rgb(22, 22, 22);
-    overflow-x: auto;
-    /* margin-top: 2vh; */
-    align-items: center;
-    margin: 2rem;
-
-    justify-content: space-around;
-
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: antiquewhite;
+  /* border: 1vh solid rgb(22, 22, 22); */
+  overflow-x: scroll;
+  margin-top: 2vh;
 }
 
 .ItemMain::-webkit-scrollbar {
-    width: 0;
+  width: 0;
 }

@@ -1,40 +1,37 @@
 .Box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 55vh;
-    flex-wrap: wrap;
-    background-image: linear-gradient(to bottom, #383838, black);
-    text-align: center;
-    min-width: 20%;
-    border-left: solid 0.1vh #5e5d5d;
-    border-right: solid 0.1vh #5e5d5d;
-    border-radius: 2vh;
-    padding-bottom: 1vh;
-    margin: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  min-width: 250px;
+  background-image: linear-gradient(to bottom, #383838, black);
+  border-left: solid 0.1vh #5e5d5d;
+  border-right: solid 0.1vh #5e5d5d;
+  border-radius: 12px;
+  margin: 0 2%;
 }
 
-.Box img {
-
-    height: 25vh;
-    position: relative;
-    width: 100%;
-    border-top-right-radius: 2vh;
-    border-top-left-radius: 2vh;
+.Box > img {
+  height: 50%;
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 
-.Box h1 {
-    font-size: 2rem;
+.Box > h1 {
+  font-size: 2rem;
 }
 
 .Addbtn {
-    background-color: #ED9112;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 2rem;
-    height: 15%;
-    min-width: 40%;
-    border: none;
+  background-color: #ed9112;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2rem;
+  height: 15%;
+  min-width: 40%;
+  border: none;
+  margin-bottom: 10%;
 }
