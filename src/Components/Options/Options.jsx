@@ -1,18 +1,27 @@
-import React from 'react'
-import './Options.css';
+import React from "react";
+import "./Options.css";
 const Options = () => {
   return (
-
-    <div className='OptionBar'>
-    <div className='MainBar'>
-    <div className='Option'><a href='#'><h1>PIZZA</h1></a></div>
-    <div className='Option'><a href='#'><h1>BURGER</h1></a></div>
-    <div className='Option'><a href='#'><h1>SANDWHICH</h1></a></div>
-    <div className='Option'><a href='#'><h1>OTHERS</h1></a></div>
-    <div className='Option'><a href='#'><h1>DRINKS</h1></a></div>
+    <div className="OptionBar">
+      <div className="MainBar">
+        <div className="Option">
+          <h1>PIZZA</h1>
+        </div>
+        <div className="Option">
+          <h1>BURGER</h1>
+        </div>
+        <div className="Option">
+          <h1>SANDWHICH</h1>
+        </div>
+        <div className="Option">
+          <h1>OTHERS</h1>
+        </div>
+        <div className="Option">
+          <h1>DRINKS</h1>
+        </div>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Options
+export default Options;
