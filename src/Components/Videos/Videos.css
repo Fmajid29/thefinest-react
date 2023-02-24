@@ -1,0 +1,31 @@
+.Vmain
+{
+    padding: 5vh;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: black;
+}
+
+
+.Vbox 
+{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.Vbox p{
+    width: 50%;
+}
+.Vbox video
+{
+    height: 22rem;
+    width: 100%;
+    margin-bottom:2rem ;
+}

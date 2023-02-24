@@ -1,0 +1,40 @@
+.Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 58vh;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, #383838, black);
+    text-align: center;
+    min-width: 20%;
+    border-left: solid 0.1vh #5e5d5d;
+    border-right: solid 0.1vh #5e5d5d;
+    border-radius: 2vh;
+    padding-bottom: 1vh;
+    margin: 3vh;
+}
+
+.Box img {
+
+    height: 25vh;
+    position: relative;
+    width: 100%;
+    border-top-right-radius: 2vh;
+    border-top-left-radius: 2vh;
+}
+
+.Box h1{
+font-size:2rem;
+}
+
+.Addbtn {
+    background-color: #ED9112;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+    height: 15%;
+    min-width: 40%;
+    border: none;
+}

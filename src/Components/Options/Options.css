@@ -1,0 +1,25 @@
+.MainBar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 2vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #ADADAD;
+    font-family: var(--font-famil);
+    border-top: solid #242423 0.5vh;
+    border-bottom: solid #242423 0.5vh;
+}
+.MainBar a
+{
+    text-decoration: none;
+    color: #ADADAD;
+    /* border-left:  solid black 0.5; */
+    /* background-color: #ED9112; */
+}
+.Option {
+    margin: 0 1rem;
+    padding: 0 1rem;
+    /* border-bottom: solid 0.2vh #ED9112;
+    border-top: solid 0.2vh #ED9112; */
+}

@@ -1,0 +1,46 @@
+.footer {
+    background-color: black;
+    border-top: gray solid 0.2vh;
+    padding: 3vh;
+    height: 100%;
+    color: antiquewhite;
+    width: 100%;
+}
+
+.Fcontainer {
+    background-color: black;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Fcontainer img {
+    height: 13rem;
+}
+.Fsec {
+    border-right: solid 0.2vh gray;
+}
+@media screen and (max-width: 1050px) {
+
+    .Fsec {
+        border-right: none;
+    }
+    .Bborder
+    {
+        border-bottom: solid 0.2vh gray;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+
+
+.Ficons {
+    font-size: 1.5rem;
+}
+
+.Fsocials {
+    margin-bottom: 2rem;
+}
