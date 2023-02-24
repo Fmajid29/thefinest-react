@@ -1,17 +1,18 @@
-.mainSection
-{
-    padding: 10vh;
+.ItemMain {
+    padding: 2rem;
     background-color: black;
     color: antiquewhite;
     display: flex;
+    border: 1vh solid rgb(22, 22, 22);
     overflow-x: auto;
+    /* margin-top: 2vh; */
     align-items: center;
+    margin: 2rem;
 
     justify-content: space-around;
 
 }
 
-.mainSection::-webkit-scrollbar
-{
+.ItemMain::-webkit-scrollbar {
     width: 0;
 }

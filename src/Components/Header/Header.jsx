@@ -3,11 +3,12 @@ import Hero from './Hero.jpg';
 import slide2 from './slide2.jpg';
 import slide3 from './slide3.jpg';
 import ex from './ex.jpg';
+import './Header.css';
 
 function Header() {
     return (
-        <Carousel>
-        <Carousel.Item interval={1000}>
+        <Carousel className='Carouselmain' >
+        <Carousel.Item interval={2000}>
           <img
           height={500}
             className="d-block w-100"
@@ -15,21 +16,21 @@ function Header() {
             alt="First slide"
           />
           <Carousel.Caption >
-            <h3 >WELCOME</h3>
+            <h1 >WELCOME</h1>
             <p>Our Taste Is Our Identity</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
             height={500}
             src={slide2}
             alt="Second slide"
           />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
+          {/* <Carousel.Caption>
+            <h1>Second slide label</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -38,12 +39,12 @@ function Header() {
             height={500}
             alt="Third slide"
           />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
+          {/* <Carousel.Caption>
+            <h1>Third slide label</h1>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
     );

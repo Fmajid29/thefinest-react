@@ -1,3 +1,16 @@
+.OptionBar
+{
+    padding: 0 4rem;
+}
+
+@media screen and (max-width: 800px) {
+    .OptionBar
+    {
+        padding: 0;
+    }
+    
+}
+
 .MainBar {
     display: flex;
     flex-direction: row;

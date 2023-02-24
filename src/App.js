@@ -11,14 +11,20 @@ import Header from "./Components/Header/Header";
 import Videos from "./Components/Videos/Videos";
 function App() {
   return (
+
+    <div>
+   <Navbar />
+   
     <div className="page">
-      <Navbar />
+
+   
       {/* <img src={Hero} className="HeroImg"/> */}
       <Header/>
       <Options/>
       <ItemSection/>
       <Videos/>
       <Footer/>
+    </div>
     </div>
   );
 }

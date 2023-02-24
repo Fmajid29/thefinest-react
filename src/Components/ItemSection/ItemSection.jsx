@@ -3,7 +3,7 @@ import FoodCard from './FoodCard';
 import './ItemSection.css';
 const ItemSection = () => {
   return (
-    <div className='mainSection'>
+    <div className='ItemMain'>
 
     <FoodCard/>
     <FoodCard/>
