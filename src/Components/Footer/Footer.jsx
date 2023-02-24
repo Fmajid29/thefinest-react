@@ -18,15 +18,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <Container className="Fcontainer">
-                <Row>
-                    <Col xs={12} md={12} className="Fsocials">
-                        <h3>
-                            Get connected with us on social networks{" "}
-                            <BsInstagram className="Ficons" />{" "}
-                            <FaFacebookF className="Ficons" />
-                        </h3>
-                    </Col>
-                </Row>
+             
 
 
 
