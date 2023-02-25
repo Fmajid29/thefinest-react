@@ -4,9 +4,7 @@ import Selection from '../Components/Selection/Selection'
 const SelectOrder = () => {
   return (
     <div>
-        
-            <Selection/>
-        
+       <Selection/>
         <Footer/>
     </div>
   )

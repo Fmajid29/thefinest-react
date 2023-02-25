@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Home from "./Pages/Home";
-//import SelectOrder from "./Pages/SelectOrder";
+import SelectOrder from "./Pages/SelectOrder";
 
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
 
       <div>
       <Navbar />
-      <Home />
-      {/* <SelectOrder/> */}
+      {/* <Home /> */}
+      <SelectOrder/>
        </div>
 
    
