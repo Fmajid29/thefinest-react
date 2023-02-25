@@ -22,7 +22,10 @@
   width: 6.5rem;
   height: 5.5rem;
   
+  
 }
+
+
 
 .navbarCart img {
   width: 2rem;
@@ -44,6 +47,10 @@
   text-decoration: none;
   margin: 1rem 1rem;
   cursor: pointer;
+}
+
+.container >p >a:hover{
+  border-bottom: #ed9112 solid 0.2vh;
 }
 
 .navbar-menu {
@@ -94,7 +101,7 @@
 
 @media screen and (max-width: 800px) {
   .main {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .container {
     display: none;

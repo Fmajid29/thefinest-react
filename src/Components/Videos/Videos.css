@@ -3,29 +3,42 @@
     padding: 5vh;
     align-items: center;
     display: flex;
+    
     text-align: center;
     background-color: black;
+   
 }
 
 
 .Vbox 
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    display: flex;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    
     color: white;
+
+
     
 }
 
 .Vbox p{
-    width: 50%;
+    width: 40%;
+    color: white;
+    padding: 2vh;
+    height: 100%;
+    margin: 1vh;
+    opacity: 0.5;
 }
 .Vbox video
 {
-    height: 22rem;
-    width: 100%;
-    margin-bottom:2rem ;
+    height: 100%;
+    width: 60%;
+    
 }

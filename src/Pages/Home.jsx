@@ -8,14 +8,18 @@ import Videos from "../Components/Videos/Videos";
 const Home = () => {
   return (
     <div className="homePage">
-    
-    <Header />
+
+      <Header />
       <Options />
+          
+    
+    
       <ItemSection />
       <Videos />
-      <Footer />
-    
      
+      <Footer />
+
+
     </div>
   );
 };

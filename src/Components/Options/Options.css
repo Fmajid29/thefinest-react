@@ -1,6 +1,7 @@
 .OptionBar
 {
     padding: 0 4rem;
+    margin: 2vh;
 }
 
 @media screen and (max-width: 800px) {
