@@ -1,43 +1,54 @@
-.MainSelection {
+.MainSelection 
+{
     background-color: black;
     padding: 5%;
     display: flex;
     align-items: center;
-    /* border: 2vh solid white; */
-
     justify-content: center;
     height: 100%;
     width: 100%;
-
-
 }
 
-.Vimg {
+.Vimg 
+{
     width: 20%;
     height: 100%;
-}
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    align-items: center;
 
-.NextSection {
+}
+.Vimg >h2
+{
+   border-bottom:0.2vh solid #ED9112 ;
+
+}
+.NextSection 
+{
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 2vh;
+    border-left: solid 0.5vh #ED9112  ;
     align-items: center;
 }
 
-.Vimg img {
-    height: 100%;
+.Vimg img 
+{
+    height: 30%;
     width: 100%;
 }
 
-.Sizes {
-
+.Sizes 
+{
     width: 100%;
     text-align: center;
 }
 
-.Sizes>Button {
+.Sizes>Button 
+{
     background-color: #ED9112;
     border: none;
     color: black;
@@ -45,31 +56,88 @@
     border-radius: 0;
     border-left: 0.5vh solid black;
     width: 16%;
-
 }
 
-.toppings {
-    color: white;
+.toppings
+{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.toppings>Button {
-    width: 50%;
+.toppings>Button 
+{
+    width: 60%;
     margin-bottom: 1vh;
     text-align: left;
     color: #ED9112;
     border: none;
     background-color: black;
 }
-
-.addsection {
+#toppingsheading
+{
+    color: rgb(83, 83, 83);
+    margin: 2vh 0;
+}
+.addsection
+{
     border-top: #ED9112 solid 0.2vh;
     padding: 1vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.control
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin:0  2vh;
 }
 
-@media screen and (max-width: 415px) {
+.control > Button
+{
+    background-color: black;
+    color:#ED9112 ;
+    border: none;
+    font-size: 2rem;
+    
+} 
+.Qdisplay
+{
+    
+    margin: 0 1%;
+    width: 20%;
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(62, 62, 62);
+    border-radius: 5px;
+}
+
+#addtocartbtn
+{
+    background-color: #ED9112;
+    color: black;
+    border: none;
+
+    font-weight:  bolder;
+    width: 80%;
+   
+}
+#pricebox
+{
+    
+    background-color: rgb(44, 44, 44);
+    margin-left: 3vh;
+    height: 100%;
+    color: #ED9112;
+    width: 100%;
+}
+@media screen and (max-width: 415px) 
+{
     .MainSelection {
         background-color: black;
         display: flex;
