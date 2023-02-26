@@ -1,214 +1,205 @@
 #MainCart {
-    background-color: rgb(11, 11, 11);
-    height: 100%;
-    width: 100%;
-    border-top: 1vh solid #ED9112;
-    margin: 0;
-    color: aliceblue;
+  background-color: rgb(11, 11, 11);
+  height: 100%;
+  width: 100%;
+  border-top: 1vh solid #ed9112;
+  margin: 0;
+  color: aliceblue;
 }
 
 .Itemdiv {
-    margin: 5% 6%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  margin: 5% 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Itemsec {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2%;
-    border-bottom: 0.2vh solid gray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+  border-bottom: 0.2vh solid gray;
 }
 
-.Itemsec>img {
-    height: 10%;
-    width: 10%;
-    border-radius: 3px;
+.Itemsec > img {
+  height: 10%;
+  width: 10%;
+  border-radius: 3px;
 }
 
 .control {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 0;
 }
 
-.control>Button {
-    background: none;
-    color: #ED9112;
-    border: none;
-    font-size: 2rem;
-
+.control > Button {
+  background: none;
+  color: #ed9112;
+  border: none;
+  font-size: 2rem;
 }
 
 .Qdisplay {
-
-
-    width: 20%;
-    text-align: center;
-    font-size: 2rem;
-    color: rgb(62, 62, 62);
-    border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(62, 62, 62);
+  border-radius: 5px;
 }
 
 .QtyPrc {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
 .Crossicon {
-    color: #ED9112;
-    font-size: 1.5rem;
-    background: none;
-    border: none;
+  color: #ed9112;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
 }
 
 .Crossicon:hover {
-    color: gray;
-    font-size: 1.5rem;
-    background: none;
-    border: none;
+  color: gray;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
 }
 
 .payment {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: 3vh 0;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 3vh 0;
 }
 
-.payment>h2 {
-    color: #ED9112;
-
+.payment > h2 {
+  color: #ed9112;
 }
 
 .Userform {
-    background-color: #ED9112;
-    margin: 3vh 0;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding: 3vh 0;
-    color: rgb(41, 41, 41);
-    border-radius: 3px;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: #ed9112;
+  margin: 3vh 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 3vh 0;
+  color: rgb(41, 41, 41);
+  border-radius: 3px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.Userform>h2 {
-    border-bottom: rgb(41, 41, 41) solid 0.2vh;
+.Userform > h2 {
+  border-bottom: rgb(41, 41, 41) solid 0.2vh;
 }
 
-.Userform>input {
-    border-radius: 6px;
-    background: rgb(8, 8, 8);
-    width: 50%;
-    padding-left: 2vh;
-    font-size: 1.5rem;
-    border: 0.2vh solid rgb(41, 41, 41);
-    margin: 2vh 0;
+.Userform > input {
+  border-radius: 6px;
+  background: rgb(8, 8, 8);
+  width: 50%;
+  padding-left: 2vh;
+  font-size: 1.5rem;
+  border: 0.2vh solid rgb(41, 41, 41);
+  margin: 2vh 0;
 }
 
 .Charges {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 .secOne {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: 3vh 0;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 3vh 0;
+  width: 100%;
 }
 
-.secOne>div>h3 {
-    border-bottom: #ED9112 0.2vh solid;
-
+.secOne > div > h3 {
+  border-bottom: #ed9112 0.2vh solid;
 }
 
 .secTwo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    color: #ED9112;
-    width: 70%;
-    margin-bottom: 3vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #ed9112;
+  width: 70%;
+  margin-bottom: 3vh;
 }
 
 .innersecTwo {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    color: #ED9112;
-    width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: #ed9112;
+  width: 50%;
 }
 
 .TBPrice {
-    background-color: rgb(40, 40, 40);
-    margin-right: 3vh;
-    width: 40%;
-    font-size: 1.5rem;
-    height: 40%;
+  background-color: rgb(40, 40, 40);
+  margin-right: 3vh;
+  width: 40%;
+  font-size: 1.5rem;
+  height: 40%;
 }
 
 #OrderNowbtn {
-    border: none;
-    background-color: #ED9112;
-    color: black;
-    font-weight: bolder;
-    width: 20%;
+  border: none;
+  background-color: #ed9112;
+  color: black;
+  font-weight: bolder;
+  width: 20%;
 }
 
-@media screen and (max-width:800px) {
-    .Itemdiv {
-        margin: 0;
+@media screen and (max-width: 800px) {
+  .Itemdiv {
+    margin: 0;
+  }
 
-    }
+  .Itemsec {
+    padding: 1vh 1vh 0 1vh;
+  }
 
-    .Itemsec {
-        padding: 1vh 1vh 0 1vh;
-    }
+  .Itemsec > img {
+    height: 100%;
+    width: 15%;
+  }
 
-    .Itemsec>img {
-        height: 100%;
-        width: 15%;
+  .details {
+    margin: 0 2vh;
+  }
+  .secTwo {
+    width: 100%;
+  }
+  .payment {
+    width: 80%;
+  }
 
-    }
+  .Userform {
+    width: 90%;
+  }
 
-    .details {
-        margin: 0 2vh;
+  .TBPrice {
+    width: 40%;
+    margin-left: 1vh;
+  }
 
-    }
-    .secTwo{
-        width: 100%;
-    }
-    .payment {
-        width: 80%;
-    }
-
-    .Userform {
-        width: 90%;
-    }
-
-    .TBPrice {
-        width: 40%;
-        margin-left: 1vh;
-    }
-
-    #OrderNowbtn {
-        width: 30%;
-    }
+  #OrderNowbtn {
+    width: 30%;
+  }
 }
