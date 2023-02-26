@@ -2,24 +2,18 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-// import Home from "./Pages/Home";
-//import SelectOrder from "./Pages/SelectOrder";
+import Home from "./Pages/Home";
+import SelectOrder from "./Pages/SelectOrder";
 import Cart from "./Pages/Cart";
-
 
 function App() {
   return (
-
-      <div>
+    <div>
       <Navbar />
-      {/* <Home /> */}
-      {/* <SelectOrder/> */}
-      <Cart/>
-       </div>
-
-   
-
-
+      <Home />
+      {/* <SelectOrder /> */}
+      {/* <Cart/> */}
+    </div>
   );
 }
 
