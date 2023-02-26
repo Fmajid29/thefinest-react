@@ -1,15 +1,14 @@
-import React from 'react'
-import Cartitems from '../Components/Cartitems/Cartitems'
-import '../Components/Cartitems/Cartitems.css';
-import Footer from '../Components/Footer/Footer';
+import React from "react";
+import Cartitems from "../Components/Cartitems/Cartitems";
+import "../Components/Cartitems/Cartitems.css";
+import Footer from "../Components/TempFooter/Footer";
 
 const Cart = () => {
   return (
-    <div id='MainCart'>
-      <Cartitems/>
-      <Footer/>
+    <div id="MainCart">
+      <Cartitems />
     </div>
-  )
-}
+  );
+};
 
 export default Cart;

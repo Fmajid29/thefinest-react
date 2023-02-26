@@ -22,10 +22,10 @@ const Navbar = () => {
             <Link to="/">HOME</Link>
           </p>
           <p>
-            <Link to="/footer">MENU</Link>
+            <Link to="/">MENU</Link>
           </p>
           <p>
-            <Link to="/footer">ABOUT</Link>
+            <Link to="/">ABOUT</Link>
           </p>
         </div>
         <div className="navbarCart">
@@ -59,9 +59,11 @@ const Navbar = () => {
                 <a href="#wgpt3">MENU</a>
               </p>
               <p>
-                <Link to="/cart">ABOUT</Link>
+                <Link to="/">ABOUT</Link>
               </p>
-              <Button id="cartbtn">View Cart</Button>
+              <Link to="/cart">
+                <Button id="cartbtn">View Cart</Button>
+              </Link>
             </div>
           </div>
         )}
