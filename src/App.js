@@ -12,6 +12,9 @@ function App() {
     <div>
       <Router>
         <Navbar />
+        <div className="supportbar">
+          <h1>hello</h1>
+        </div>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/cart" element={<Cart />} />

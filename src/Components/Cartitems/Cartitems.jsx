@@ -25,13 +25,21 @@ const Cartitems = () => {
         </div>
         <div className="Userform">
           <h2>FULL NAME</h2>
-          <input type="text" placeholder="Full Name" />
+          <input
+            type="text"
+            placeholder="Full Name"
+            style={{ color: "white" }}
+          />
           <h2>EMAIL</h2>
-          <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email" style={{ color: "white" }} />
           <h2>PHONE NUMBER</h2>
-          <input type="text" placeholder="Phone No" />
+          <input
+            type="text"
+            placeholder="Phone No"
+            style={{ color: "white" }}
+          />
           <h2>ADDRESS</h2>
-          <input type="text" placeholder="Address" />
+          <input type="text" placeholder="Address" style={{ color: "white" }} />
         </div>
         <div className="Charges">
           <div className="secOne">
