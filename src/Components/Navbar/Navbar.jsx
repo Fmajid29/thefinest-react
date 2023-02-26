@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/footer">MENU</Link>
           </p>
           <p>
-            <Link to="/cart">ABOUT</Link>
+            <Link to="/footer">ABOUT</Link>
           </p>
         </div>
         <div className="navbarCart">
