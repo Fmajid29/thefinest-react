@@ -5,7 +5,18 @@ const Videos = () => {
   return (
     <div className="Vmain">
       <div className="Vbox">
-        <video src={v1} />
+        <video controls>
+          <source src={v1} />
+        </video>
+        {/* <iframe
+          width="1268"
+          height="713"
+          src="https://www.youtube.com/embed/dR4eijxUubw"
+          title="I Can Speak Like Shah Rukh Khan - Thanks to this AI 🔥"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe> */}
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
