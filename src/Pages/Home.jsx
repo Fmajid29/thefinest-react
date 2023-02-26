@@ -11,9 +11,6 @@ const Home = () => {
 
       <Header />
       <Options />
-          
-    
-    
       <ItemSection />
       <Videos />
      

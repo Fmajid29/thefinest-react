@@ -23,9 +23,9 @@ const ItemSec = () => {
                 <p>Et est sit labore veniam labore.</p>
                 <div className='QtyPrc'>
                     <div className='control'>
-                        <Button onClick={counter_add}>+</Button>
-                        <div id='display' className='Qdisplay'>0</div>
                         <Button onClick={counter_minus}>-</Button>
+                        <div id='display' className='Qdisplay'>0</div>
+                        <Button onClick={counter_add}>+</Button>
                     </div>
                     <p>Rs 900</p>
                 </div>
