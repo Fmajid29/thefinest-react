@@ -7,7 +7,10 @@
   justify-content: center;
   align-items: center;
   background-color: black;
-  padding: 1rem 1rem;
+  position: fixed;
+  width: 100%;
+  height: 12vh;
+  padding: 0 1%;
   z-index: 9;
 }
 
@@ -21,11 +24,7 @@
 .navbarLogo img {
   width: 6.5rem;
   height: 5.5rem;
-
-
 }
-
-
 
 .navbarCart img {
   width: 2rem;
@@ -39,7 +38,7 @@
   justify-content: center;
 }
 
-.container p>a {
+.container p > a {
   color: gray;
   font-family: var(--font-famil);
   font-size: 4vh;
@@ -49,7 +48,7 @@
   cursor: pointer;
 }
 
-.container>p>a:hover {
+.container > p > a:hover {
   border-bottom: #ed9112 solid 0.2vh;
 }
 
@@ -89,12 +88,12 @@
   border-bottom: solid 0.2vh #ed9112;
 }
 
-.navbar-menu_container p>a {
+.navbar-menu_container p > a {
   text-decoration: none;
   color: #adadad;
 }
 
-.navbar-menu_container p>a:hover {
+.navbar-menu_container p > a:hover {
   text-decoration: none;
   color: #ed9112;
 }
