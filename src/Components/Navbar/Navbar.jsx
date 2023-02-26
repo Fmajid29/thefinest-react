@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/footer">MENU</Link>
           </p>
           <p>
-            <Link to="/footer">ABOUT</Link>
+            <Link to="/cart">ABOUT</Link>
           </p>
         </div>
         <div className="navbarCart">
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <a href="#wgpt3">MENU</a>
               </p>
               <p>
-                <Link to="/footer">ABOUT</Link>
+                <Link to="/cart">ABOUT</Link>
               </p>
               <Button id="cartbtn">View Cart</Button>
             </div>
