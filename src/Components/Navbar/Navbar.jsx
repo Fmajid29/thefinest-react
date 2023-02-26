@@ -29,7 +29,9 @@ const Navbar = () => {
           </p>
         </div>
         <div className="navbarCart">
-          <img src={cart} alt="cart logo" />
+          <Link to="/cart">
+            <img src={cart} alt="cart logo" />
+          </Link>
         </div>
       </div>
 
