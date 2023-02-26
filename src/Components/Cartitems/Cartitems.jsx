@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 
 const Cartitems = () => {
   return (
-    <>
+    
       <div className="Itemdiv">
         <ItemSec />
         <ItemSec />
@@ -62,7 +62,7 @@ const Cartitems = () => {
           </div>
         </div>
       </div>
-    </>
+    
   );
 };
 

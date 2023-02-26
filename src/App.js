@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Cart from "./Pages/Cart";
+import TempFooter from "./Components/TempFooter/TempFooter";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/cart" element={<Cart />} />
         </Routes>
+        <TempFooter/>
       </Router>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./TempFooter.css";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
@@ -11,21 +11,21 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import logo from "./logo.png";
 
-const Footer = () => {
+const TempFooter = () => {
   return (
     <div className="footer">
       <Container className="Fcontainer">
-        <Row>
-          <Col xs={12} md={3} lg={3} className="Fsec Bborder">
-            <img src={logo} alt="logo" />
+        <Row className="row">
+          <Col  lg={3} className="Rborder">
+            <img src={logo} alt="logo" className="Flogo" />
           </Col>
-          <Col xs={12} md={3} className="Bborder">
+          <Col xs={12} md={4} lg={3} className="Bborder">
             <h1>Information</h1>
             <p>About Us</p>
             <p>Help</p>
             <p>services</p>
           </Col>
-          <Col xs={12} md={3} lg={3} className="Bborder">
+          <Col xs={12} md={4} lg={3} className="Bborder">
             <h1>Useful links</h1>
             <p>
               <SiGooglemaps className="Ficons" /> Google Maps
@@ -39,7 +39,7 @@ const Footer = () => {
               <FaFacebookF className="Ficons" /> @TheFinestRestraut
             </p>
           </Col>
-          <Col xs={12} md={3} lg={3} className="Bborder">
+          <Col xs={12} md={4} lg={3} className="Bborder">
             <h1>Contact</h1>
             <p>
               <AiFillHome className="Ficons" /> New York, NY 10012, US
@@ -63,4 +63,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default TempFooter;
