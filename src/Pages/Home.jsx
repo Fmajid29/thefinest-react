@@ -1,7 +1,6 @@
 import React from "react";
 import Options from "../Components/Options/Options";
 import ItemSection from "../Components/ItemSection/ItemSection";
-import Footer from "../Components/TempFooter/Footer";
 import Header from "../Components/Header/Header";
 import Videos from "../Components/Videos/Videos";
 
