@@ -5,7 +5,7 @@ const Videos = () => {
   return (
     <div className="Vmain">
       <div className="Vbox">
-        <video autoPlay>
+        <video autoPlay loop>
           <source src={v1} type="video/mp4" />
           your browser does not support this video
         </video>
