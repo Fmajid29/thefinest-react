@@ -42,12 +42,16 @@ const Cartitems = () => {
                       
                         <div>
                             <h3>Payment Method</h3>
+                            <p>Cash on  delivery</p>
                         </div>
                     </div>
                     <div className='secTwo'>
-                        <h2>Total Bill</h2>
-                        <div>Rs 7896</div>
-                        <Button>Order Now</Button>
+                       
+                        <div className='innersecTwo' >
+                          <h2>Total Bill</h2> 
+                        <div className='TBPrice'>Rs 7896</div>
+                        </div>
+                        <Button id='OrderNowbtn'>Order Now</Button>
                     </div>
                 </div>
             </div>

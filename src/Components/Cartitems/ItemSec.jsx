@@ -19,10 +19,11 @@ const ItemSec = () => {
     return (
         <div className='Itemsec'>
             <img src={item} alt='item' />
-            <div>
-                <p>Et est sit labore veniam labore.</p>
+            <div className='details'>
+                <p>Et est sit labore veniam labore.Tempor culpa aliqua mollit aliqua est ea.</p>
                 <div className='QtyPrc'>
                     <div className='control'>
+                        
                         <Button onClick={counter_minus}>-</Button>
                         <div id='display' className='Qdisplay'>0</div>
                         <Button onClick={counter_add}>+</Button>
@@ -31,7 +32,8 @@ const ItemSec = () => {
                 </div>
 
             </div>
-            <RxCross1 />
+            <Button className='Crossicon'> <RxCross1 /></Button>
+           
         </div>
     )
 }

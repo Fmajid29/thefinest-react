@@ -3,7 +3,7 @@
     border-top: gray solid 0.2vh;
     padding: 3vh;
     height: 100%;
-    color: antiquewhite;
+    color: gray;
     width: 100%;
 }
 
@@ -14,23 +14,26 @@
     flex-direction: column;
     text-align: center;
 }
-.Fcontainer h1{
+
+.Fcontainer h1 {
     color: #e89d34;
 }
 
 .Fcontainer img {
     height: 13rem;
 }
+
 .Fsec {
     border-right: solid 0.2vh gray;
 }
+
 @media screen and (max-width: 1050px) {
 
     .Fsec {
         border-right: none;
     }
-    .Bborder
-    {
+
+    .Bborder {
         border-bottom: solid 0.2vh gray;
         margin-bottom: 1rem;
     }
@@ -40,8 +43,7 @@
 
 
 
+
 .Ficons {
     font-size: 1.5rem;
 }
-
-
