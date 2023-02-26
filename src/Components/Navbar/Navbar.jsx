@@ -4,6 +4,7 @@ import logo from "../../assets/logo.png";
 import cart from "../../assets/cart.png";
 import "./Navbar.css";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,17 +13,19 @@ const Navbar = () => {
     <div className="main">
       <div className="Bar">
         <div className="navbarLogo">
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="container">
           <p>
-            <a href="#home">HOME</a>
+            <Link to="/">HOME</Link>
           </p>
           <p>
-            <a href="#wgpt3">MENU</a>
+            <Link to="/footer">MENU</Link>
           </p>
           <p>
-            <a href="#possibility">DEALS</a>
+            <Link to="/footer">ABOUT</Link>
           </p>
         </div>
         <div className="navbarCart">
@@ -48,13 +51,13 @@ const Navbar = () => {
           <div className="navbar-menu_container">
             <div className="navbar-menu_container-links">
               <p>
-                <a href="#home">HOME</a>
+                <Link to="/">HOME</Link>
               </p>
               <p>
                 <a href="#wgpt3">MENU</a>
               </p>
               <p>
-                <a href="#possibility">ABOUT</a>
+                <Link to="/footer">ABOUT</Link>
               </p>
               <Button id="cartbtn">View Cart</Button>
             </div>
