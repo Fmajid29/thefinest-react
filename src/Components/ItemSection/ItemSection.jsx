@@ -2,6 +2,7 @@ import React from "react";
 import FoodCard from "./FoodCard";
 import "./ItemSection.css";
 import Pepperoni from "../ItemSection/Pepperoni.jpg";
+
 const ItemSection = () => {
   return (
     <div className="ItemMain">

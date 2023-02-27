@@ -1,44 +1,57 @@
-.Vmain
-{
-    padding: 5vh;
-    align-items: center;
-    display: flex;
-    
-    text-align: center;
-    background-color: black;
-   
+.Vmain {
+  padding: 5vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: black;
 }
 
+.Vbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
 
-.Vbox 
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  color: white;
+}
+.Vtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+
+  color: white;
+}
+
+.Vbox > p {
+  width: 40%;
+  color: white;
+  padding: 2vh;
+  height: 100%;
+  margin: 1vh;
+  opacity: 0.5;
+}
+.Vbox > video {
+  height: 100%;
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .Vmain {
+    flex-direction: column;
+  }
+  .Vbox > video {
+    height: 100%;
     width: 100%;
-    background-image: url("bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    
-    color: white;
-
-
-    
-}
-
-.Vbox p{
-    width: 40%;
-    color: white;
-    padding: 2vh;
-    height: 100%;
-    margin: 1vh;
-    opacity: 0.5;
-}
-.Vbox video
-{
-    height: 100%;
-    width: 60%;
-    
+  }
 }

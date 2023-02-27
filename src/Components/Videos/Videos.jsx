@@ -9,6 +9,8 @@ const Videos = () => {
           <source src={v1} type="video/mp4" />
           your browser does not support this video
         </video>
+      </div>
+      <div className="Vtext">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
