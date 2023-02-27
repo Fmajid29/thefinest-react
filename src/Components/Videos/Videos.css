@@ -8,10 +8,10 @@
 
 .Vbox {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 50%;
+  height: 50vh;
   background-image: url("bg.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -21,10 +21,10 @@
 }
 .Vtext {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 50%;
+  height: 50vh;
   background-image: url("bg.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -43,7 +43,7 @@
 }
 .Vbox > video {
   height: 100%;
-  width: 60%;
+  width: 100%;
 }
 
 @media screen and (max-width: 800px) {
