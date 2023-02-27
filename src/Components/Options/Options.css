@@ -26,10 +26,12 @@
   color: gray;
   margin-right: 2vh;
 }
+
 #LOptionIcon {
   font-size: 3rem;
   color: gray;
 }
+
 @media screen and (max-width: 1105px) {
   .MainBar > li > span {
     display: none;
