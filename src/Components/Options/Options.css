@@ -1,47 +1,39 @@
 .OptionBar {
-
-    width: 100%;
-    padding: 7vh 7vh 0 7vh;
+  width: 100%;
+  padding: 7vh 7vh 0 7vh;
 }
-
-
 
 .MainBar {
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    padding: 2vh;
-    list-style: none;
-    justify-content: space-evenly;
-    color: #ADADAD;
-    border-top: solid #242423 0.5vh;
-    border-bottom: solid #242423 0.5vh;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding: 2vh;
+  list-style: none;
+  justify-content: space-evenly;
+  color: #adadad;
+  border-top: solid #242423 0.5vh;
+  border-bottom: solid #242423 0.5vh;
 }
 
-.MainBar>li>a {
-    text-decoration: none;
-    color: #ADADAD;
-    font-size: 2rem;
-    
+.MainBar > li {
+  text-decoration: none;
+  color: #adadad;
+  font-size: 2rem;
 }
 
-
-
-.OptionIcon
-{
-    font-size: 3rem;
-    color: gray;
-    margin-right: 2vh;
+.OptionIcon {
+  font-size: 3rem;
+  color: gray;
+  margin-right: 2vh;
 }
-#LOptionIcon
-{
-    font-size: 3rem;
-    color: gray;
+
+#LOptionIcon {
+  font-size: 3rem;
+  color: gray;
 }
-@media screen  and (max-width:1105px)
-{
-    .MainBar>li>a>span {
-        display: none;
-    };
-    
+
+@media screen and (max-width: 1105px) {
+  .MainBar > li > span {
+    display: none;
+  }
 }

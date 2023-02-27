@@ -49,7 +49,17 @@
 @media screen and (max-width: 800px) {
   .Vmain {
     flex-direction: column;
+    height: 70vh;
   }
+  .Vbox {
+    width: 100%;
+    height: 50%;
+  }
+  .Vtext {
+    height: 50%;
+    width: 100%;
+  }
+
   .Vbox > video {
     height: 100%;
     width: 100%;
