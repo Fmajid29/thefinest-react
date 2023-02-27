@@ -1,12 +1,11 @@
 .ItemMain {
   width: 80%;
-  height: 60vh;
   display: flex;
   align-items: center;
   background-color: black;
   color: antiquewhite;
-  overflow-x: scroll;
-  margin: 10vh 0 ;
+  flex-wrap: wrap;
+  margin: 10vh 0;
   padding-bottom: 20px;
 }
 

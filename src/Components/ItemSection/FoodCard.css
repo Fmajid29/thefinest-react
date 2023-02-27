@@ -1,26 +1,26 @@
 .Box {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
-  height: 90%;
-  min-width: 250px;
+  height: 400px;
+  width: 250px;
   background-image: linear-gradient(to bottom, #383838, black);
   border-left: solid 0.1vh #5e5d5d;
   border-right: solid 0.1vh #5e5d5d;
   border-radius: 12px;
-  margin: 0 2%;
+  margin: 2% 2%;
 }
 
-.Box>img {
+.Box > img {
   height: 50%;
   width: 100%;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
 }
 
-.Box>h1 {
+.Box > h1 {
   font-size: 2rem;
 }
 
@@ -29,9 +29,49 @@
   color: black;
   font-weight: bolder;
   text-align: center;
-  font-size: 1.5rem;
-  height: 12%;
-  min-width: 40%;
+  font-size: 1rem;
+  height: 20%;
+  width: 150px;
   border: none;
   margin-bottom: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  .Box {
+    justify-content: space-between;
+    height: 220px;
+    width: 150px;
+    border-left: solid 0.1vh #5e5d5d;
+    border-right: solid 0.1vh #5e5d5d;
+    border-radius: 12px;
+    margin: 2% 2%;
+  }
+  .Box > img {
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+  .cardTextResponsive {
+    height: 60%;
+    width: 100%;
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .des {
+    display: none;
+  }
+  .cardTextResponsive > h3 {
+    font-size: 1rem;
+  }
+  .Addbtn {
+    font-size: 1rem;
+    height: 30%;
+    width: 140px;
+    border: none;
+    margin-bottom: 5%;
+  }
 }

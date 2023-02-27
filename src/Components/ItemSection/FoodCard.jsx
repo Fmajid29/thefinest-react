@@ -1,15 +1,16 @@
 import { Button } from "react-bootstrap";
 import React from "react";
 import "./FoodCard.css";
-import Pepperoni from "../ItemSection/Pepperoni.jpg";
-const FoodCard = () => {
+const FoodCard = (props) => {
   return (
     <div className="Box">
-      <img src={Pepperoni} alt="img" />
-      <h3>CREAMY TIKKA</h3>
-      
-      <Button className="Addbtn" >ADD</Button>
-      
+      <img src={props.image} alt="img" />
+      <div className="cardTextResponsive">
+        <h3>{props.title}</h3>
+        <p className="des">{props.description}</p>
+        <p>Rs. {props.price}</p>
+        <Button className="Addbtn">ADD TO CART</Button>
+      </div>
     </div>
   );
 };
