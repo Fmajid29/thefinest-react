@@ -1,0 +1,76 @@
+.MainSec {
+    height: 100%;
+    width: 100%;
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+
+
+}
+
+.DealCard {
+    display: flex;
+    border-bottom: 0.2vh solid gray;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    color: gray;
+
+    padding: 3vh 0;
+
+
+}
+
+.DealCard>img {
+    height: 20vh;
+}
+
+.DealCard>Button {
+    background-color: #ed9112;
+    border: none;
+    color: black;
+}
+
+.details {
+    display: flex;
+    border: 0.2vh #ed9112 solid;
+
+    padding-top: 2vh;
+    justify-content: space-evenly;
+}
+
+.radiobtn {
+    padding-top: 2vh;
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+@media screen and (max-width:800px) {
+
+    .DealCard {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 0.2vh solid #ed9112;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        color: gray;
+
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}
