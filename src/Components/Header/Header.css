@@ -1,9 +1,8 @@
-.header
-{
+.header {
   /* background-color: aliceblue; */
   width: 100%;
   height: 60vh;
-  background-image:url("black-gd9f203700_1280.png") ;
+  background-image: url("black-gd9f203700_1280.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,38 +11,30 @@
   align-items: center;
   text-align: center;
 }
-.HeaderText
-{
-    background: rgb(16, 16, 16,0.7);
-    height: 50%;
-    border-radius: 3px;
-    width: 40%;
-    color: gray;
-    border-left: gray 0.2vh solid;
-    border-right: gray 0.2vh solid;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .HeaderText>h1{
-    font-size: 4rem;
-
+.HeaderText {
+  background: rgb(16, 16, 16, 0.7);
+  height: 50%;
+  border-radius: 3px;
+  width: 40%;
+  color: gray;
+  border-left: gray 0.2vh solid;
+  border-right: gray 0.2vh solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
+.HeaderText > h1 {
+  font-size: 4rem;
+}
 
 @media screen and (max-width: 1036px) {
-
-  .HeaderText>h1{
-    font-size:none;
+  .HeaderText > h1 {
+    font-size: 3rem;
     width: 100%;
-
+  }
+  .HeaderText {
+    width: 80%;
+  }
 }
-.HeaderText{
-  width: 80%;
-}
-}
-  
