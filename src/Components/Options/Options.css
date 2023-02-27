@@ -21,10 +21,27 @@
 .MainBar>li>a {
     text-decoration: none;
     color: #ADADAD;
-    /* font-size: 6vh; */
+    font-size: 2rem;
+    
 }
 
-.MainBar>li>a:hover {
 
-    border-bottom: 0.5vh solid #ed9112;
+
+.OptionIcon
+{
+    font-size: 3rem;
+    color: gray;
+    margin-right: 2vh;
+}
+#LOptionIcon
+{
+    font-size: 3rem;
+    color: gray;
+}
+@media screen  and (max-width:1105px)
+{
+    .MainBar>li>a>span {
+        display: none;
+    };
+    
 }

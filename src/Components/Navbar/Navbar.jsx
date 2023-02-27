@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link to="/">HOME</Link>
           </p>
           <p>
-            <Link to="/">DEALS</Link>
+            <Link to="/deals">DEALS</Link>
           </p>
           <p>
             <Link to="/">ABOUT</Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <Link to="/">HOME</Link>
               </p>
               <p>
-                <a href="#wgpt3">MENU</a>
+                <a href="/deals">DEALS</a>
               </p>
               <p>
                 <Link to="/">ABOUT</Link>
