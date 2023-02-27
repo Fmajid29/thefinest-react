@@ -1,39 +1,30 @@
-.OptionBar
-{
-    padding: 0 4rem;
-    margin: 2vh;
+.OptionBar {
+
+    width: 100%;
+    padding: 7vh 7vh 0 7vh;
 }
 
-@media screen and (max-width: 800px) {
-    .OptionBar
-    {
-        padding: 0;
-    }
-    
-}
+
 
 .MainBar {
     display: flex;
     flex-direction: row;
     background-color: black;
     padding: 2vh;
+    list-style: none;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     color: #ADADAD;
-    font-family: var(--font-famil);
     border-top: solid #242423 0.5vh;
     border-bottom: solid #242423 0.5vh;
 }
-.MainBar a
-{
+
+.MainBar>li>a {
     text-decoration: none;
     color: #ADADAD;
-    /* border-left:  solid black 0.5; */
-    /* background-color: #ED9112; */
+    /* font-size: 6vh; */
 }
-.Option {
-    margin: 0 1rem;
-    padding: 0 1rem;
-    /* border-bottom: solid 0.2vh #ED9112;
-    border-top: solid 0.2vh #ED9112; */
+
+.MainBar>li>a:hover {
+
+    border-bottom: 0.5vh solid #ed9112;
 }

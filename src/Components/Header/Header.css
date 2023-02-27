@@ -1,24 +1,49 @@
-.Carouselmain > p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
+.header
+{
+  /* background-color: aliceblue; */
+  width: 100%;
+  height: 60vh;
+  background-image:url("black-gd9f203700_1280.png") ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-@media screen and (max-width: 800px) {
-  .header {
-    height: 20vh;
+.HeaderText
+{
+    background: rgb(16, 16, 16,0.7);
+    height: 50%;
+    border-radius: 3px;
+    width: 40%;
+    color: gray;
+    border-left: gray 0.2vh solid;
+    border-right: gray 0.2vh solid;
+    text-align: center;
     display: flex;
-    background-image: url("ex.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .Carouselmain {
-    display: none;
-  }
+  .HeaderText>h1{
+    font-size: 4rem;
+
 }
 
-@media screen and (max-width: 2000px) {
-  .header {
-    position: relative;
-    width: 60%;
-  }
+
+
+
+@media screen and (max-width: 1036px) {
+
+  .HeaderText>h1{
+    font-size:none;
+    width: 100%;
+
 }
+.HeaderText{
+  width: 80%;
+}
+}
+  

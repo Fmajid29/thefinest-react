@@ -3,23 +3,19 @@ import "./Options.css";
 const Options = () => {
   return (
     <div className="OptionBar">
-      <div className="MainBar">
-        <div className="Option">
-          <h1>PIZZA</h1>
-        </div>
-        <div className="Option">
-          <h1>BURGER</h1>
-        </div>
-        <div className="Option">
-          <h1>SANDWHICH</h1>
-        </div>
-        <div className="Option">
-          <h1>OTHERS</h1>
-        </div>
-        <div className="Option">
-          <h1>DRINKS</h1>
-        </div>
-      </div>
+      
+
+        
+         <ul className="MainBar">
+          <li><a href="#">PIZZA</a></li>
+          <li><a href="#">BURGER</a></li>
+          <li><a href="#">SANDWHICH</a></li>
+          <li><a href="#">OTHERS</a></li>
+          <li><a href="#">DRINKS</a></li>
+         </ul>
+        
+       
+      
     </div>
   );
 };
