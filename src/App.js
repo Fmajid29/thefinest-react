@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Cart from "./Pages/Cart";
 import TempFooter from "./Components/TempFooter/TempFooter";
 import DealsPage from "./Pages/DealsPage";
+import ReviewPage from "./Pages/ReviewPage";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/cart" element={<Cart />} />
           <Route exact path="/deals" element={<DealsPage />} />
+          <Route exact path="/review" element={<ReviewPage />} />
+
 
         </Routes>
         <TempFooter/>

@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/deals">DEALS</Link>
           </p>
           <p>
-            <Link to="/">ABOUT</Link>
+            <Link to="/review">REVIEW</Link>
           </p>
         </div>
         <div className="navbarCart">
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <a href="/deals">DEALS</a>
               </p>
               <p>
-                <Link to="/">ABOUT</Link>
+                <Link to="/review">REVIEW</Link>
               </p>
               <Link to="/cart">
                 <Button id="cartbtn">View Cart</Button>

@@ -19,7 +19,7 @@ const ItemSec = () => {
     return (
         <div className='Itemsec'>
             <img src={item} alt='item' />
-            <div className='details'>
+            <div className='Cartdetails'>
                 <p>Et est sit labore veniam labore.Tempor culpa aliqua mollit aliqua est ea.</p>
                 <div className='QtyPrc'>
                     <div className='control'>

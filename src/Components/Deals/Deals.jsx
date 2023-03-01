@@ -8,7 +8,7 @@ const Deals = () => {
 
        
             <div className='DealCard'>
-                <img src={img} />
+                <img src={img} alt="Dealimg"/>
                 <div className='section2'>
                   <div>
                         <h3>Rs 1500</h3>

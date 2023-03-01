@@ -1,0 +1,54 @@
+.MainFeedback {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: black;
+    border: #ed9112 solid 0.2vh;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 3vh;
+    color: #ed9112;
+    height: 60vh;
+}
+
+.sec {
+    width: 50%;
+}
+
+.input {
+    width: 100%;
+    border: #ed9112 solid 0.2vh;
+    background: none;
+
+}
+
+#Feedbackinput {
+    width: 100%;
+    border: #ed9112 solid 0.2vh;
+    background: none;
+    height: 15vh;
+}
+
+.MainFeedback>button {
+    background-color: #ed9112;
+    color: black;
+    width: 30%;
+    border: none
+}
+
+@media screen and (max-width:640px) {
+
+    .MainFeedback {
+        width: 90%;
+        padding: 1vh;
+    }
+
+    .sec {
+        width: 80%;
+    }
+}
