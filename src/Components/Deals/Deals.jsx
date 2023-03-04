@@ -7,7 +7,7 @@ import "./Deals.css";
 const Deals = () => {
   return (
     <div className="DealCard">
-      <img src={img} />
+      <img src={img} alt="img" />
       <div className="section2">
         <div className="details" id="DealDetail">
           <p>2 Burgers</p>

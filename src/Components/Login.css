@@ -30,7 +30,7 @@
   width: 40%;
   background-color: black;
   border-radius: 20px;
-  background-image: url("https://images.unsplash.com/photo-1626238584865-319a8f03260d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-image: url("https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -77,7 +77,7 @@
   height: 15%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .loginform {
     height: 70vh;
     width: 90%;
