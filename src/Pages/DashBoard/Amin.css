@@ -1,0 +1,78 @@
+.Omain {
+
+    margin: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2vh 3vh;
+    padding: 2vh 0;
+    scroll-behavior: smooth;
+    border: #ED9112 solid 0.5vh;
+    color: #ED9112;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.PopUpAddbtn {
+    font-size: 6vh;
+    background-color: black;
+    color: #ED9112;
+    border: none;
+}
+
+.ItemsDiv {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #ED9112;
+    width: 90%;
+    border-radius: 5px;
+    color: black;
+    height: 30%;
+    padding: 2vh;
+    margin: 2vh 0;
+}
+
+.ManageIcons {
+    font-size: 4vh;
+    margin: 0 1vh;
+
+}
+
+@media screen and (max-width:1000px) {
+    .Omain
+    {
+        margin: 1vh ;
+    }
+    .Sections {
+        width: 100%;
+    border: #ED9112 solid 0.2vh;
+    margin: 1vh;
+
+    }
+
+    .ItemsDiv{
+        width: 98%
+    }
+}

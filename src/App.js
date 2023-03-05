@@ -10,7 +10,7 @@ import DealsPage from "./Pages/DealsPage";
 import ReviewPage from "./Pages/ReviewPage";
 import Login from "./Pages/Login";
 import Privateroute from "./Components/Privateroute";
-import AdminDashboard from "./Pages/AdminDashboard";
+import AdminDashboard from "./Pages/DashBoard/AdminDashboard";
 
 function App() {
   console.log(app);
