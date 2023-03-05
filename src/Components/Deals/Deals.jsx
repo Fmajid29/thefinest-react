@@ -4,55 +4,12 @@ import Form from "react-bootstrap/Form";
 import img from "./Deal.jpg";
 import "./Deals.css";
 const Deals = () => {
-<<<<<<< HEAD
-    return (
 
-       
-            <div className='DealCard'>
-                <img src={img} alt="Dealimg"/>
-                <div className='section2'>
-                  <div>
-                        <h3>Rs 1500</h3>
-                    </div>
-                    <div className='details' id='DealDetail'>
-                        <p>2 Burgers</p>
-                        <p>Regular Fries</p>
-                        <p>2 wings</p>
-                    </div>
-                    <div className='radiobtn'>
-                    
-                        <Form>
-                        
-                            {['radio'].map((type) => (
-                                <>
-                                
-                                <div key={`inline-${type}`} className="mb-3">
-                                    <Form.Check
-                                        inline
-                                        label="Sprite"
-                                        name="group1"
-                                        type={type}
-                                        id={`inline-${type}-1`}
-                                    />
-                                    <Form.Check
-                                        inline
-                                        label="Coke"
-                                        name="group1"
-                                        type={type}
-                                        id={`inline-${type}-2`}
-                                    />
-
-                                </div>
-                                </>
-                               
-                            ))}
-                        </Form>
-                    </div>
-                    
-=======
   return (
     <div className="DealCard">
-      <img src={img} />
+      <img src={img} alt=
+        'img'
+      />
       <div className="section2">
         <div className="details" id="DealDetail">
           <p>2 Burgers</p>
@@ -78,7 +35,7 @@ const Deals = () => {
                     type={type}
                     id={`inline-${type}-2`}
                   />
->>>>>>> a8fc279a73676e12ab311ba4f225ea1e8956e7a6
+
                 </div>
                 <div>
                   <h3>Rs 1500</h3>
@@ -91,6 +48,7 @@ const Deals = () => {
 
       <Button>Add To Cart</Button>
     </div>
+
   );
 };
 
