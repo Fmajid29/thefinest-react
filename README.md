@@ -47,4 +47,4 @@ REACT_APP_FIREBASE_APP_ID=your_app_id
 
 ## Credits
 
-The Finest was created by (Shalina Khan)[https://github.com/shalinak].
+The Finest was created by [Shalina Khan](https://github.com/shalinak)
