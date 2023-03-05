@@ -14,7 +14,7 @@ The Finest is a restaurant website built using React and Firebase as its backend
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/TheFinest.git
+   git clone https://github.com/Fmajid29/thefinest-react.git
 
    ```
 
