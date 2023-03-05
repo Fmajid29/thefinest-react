@@ -12,16 +12,16 @@
     top: 0;
     z-index: 10;
 }
-#PopupBtn
-{
+
+#PopupBtn {
     width: 20%;
     background-color: #ED9112;
     color: black;
     font-weight: bolder;
     border: none;
 }
-#ClosePopup
-{
+
+#ClosePopup {
     color: #ED9112;
     font-size: 6vh;
     position: absolute;
@@ -29,9 +29,10 @@
     right: 0;
     margin: 3vh;
 }
-.SecondDiv
-{
+
+.SecondDiv {
     display: flex;
+    animation: popUpAnimation 0.3s ease forwards;
     flex-direction: column;
     background-color: black;
     width: 60%;
@@ -42,40 +43,57 @@
     border: 0.5vh solid #ED9112;
     color: #ED9112;
 }
-.PopUpInput
-{
+
+.PopUpInput {
     width: 80%;
 }
-.PopUpInput>input
-{
+
+.PopUpInput>input {
     width: 80%;
     border-radius: 7px;
     background-color: #ED9112;
     color: black;
     height: 6vh;
-    padding:  0 2vh;
+    padding: 0 2vh;
     border: none;
 }
 
 @media screen and (max-width:1000px) {
-    .SecondDiv{
+    .SecondDiv {
         width: 90%;
         height: 80%;
     }
-    .PopUpInput
-    {
-        width:90%;
-    }
-    .PopUpInput>input {
-        width:90%;
 
-    };
-    .PopUpInput>h2
-    {
+    .PopUpInput {
+        width: 90%;
+    }
+
+    .PopUpInput>input {
+        width: 90%;
+
+    }
+
+    ;
+
+    .PopUpInput>h2 {
         font-size: 2rem;
     }
-    #PopupBtn
-    {
+
+    #PopupBtn {
         width: 30%;
+    }
+}
+
+
+
+@keyframes popUpAnimation {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
     }
 }
