@@ -3,13 +3,12 @@ import { Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import img from "./Deal.jpg";
 import "./Deals.css";
-const Deals = () => {
 
+const Deals = () => {
   return (
     <div className="DealCard">
-      <img src={img} alt=
-        'img'
-      />
+      <img src={img} alt="img" />
+
       <div className="section2">
         <div className="details" id="DealDetail">
           <p>2 Burgers</p>
@@ -35,7 +34,6 @@ const Deals = () => {
                     type={type}
                     id={`inline-${type}-2`}
                   />
-
                 </div>
                 <div>
                   <h3>Rs 1500</h3>
@@ -51,5 +49,4 @@ const Deals = () => {
 
   );
 };
-
 export default Deals;

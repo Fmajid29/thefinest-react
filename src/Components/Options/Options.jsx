@@ -4,7 +4,6 @@ import { GiHamburger } from "react-icons/gi";
 import { MdFastfood } from "react-icons/md";
 import { CiCoffeeCup } from "react-icons/ci";
 import { FaBreadSlice } from "react-icons/fa";
-// import { Link } from "react-router-dom";
 
 import "./Options.css";
 const Options = () => {
