@@ -3,7 +3,7 @@ import "../Components/Login.css";
 import { useNavigate } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { changeState, state } from "../functions";
+import { changeState } from "../functions";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -51,7 +51,7 @@ const Login = () => {
             onChange={handlechange}
           />
           <input
-            type="text"
+            type="password"
             placeholder="Password"
             name="password"
             onChange={handlechange}
