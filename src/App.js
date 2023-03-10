@@ -13,7 +13,7 @@ import Privateroute from "./Components/Privateroute";
 import AdminDashboard from "./Pages/DashBoard/AdminDashboard";
 
 function App() {
-  console.log(app);
+  // console.log(app);
   return (
     <div>
       <Router>
