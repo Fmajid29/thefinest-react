@@ -13,7 +13,6 @@ import Privateroute from "./Components/Privateroute";
 import AdminDashboard from "./Pages/DashBoard/AdminDashboard";
 
 function App() {
-  console.log(app);
   return (
     <div>
       <Router>
@@ -27,7 +26,6 @@ function App() {
           <Route exact path="/cart" element={<Cart />} />
           <Route exact path="/deals" element={<DealsPage />} />
           <Route exact path="/review" element={<ReviewPage />} />
-
           <Route exact path="/admin" element={<Privateroute />}>
             <Route exact path="dashboard" element={<AdminDashboard />} />
           </Route>
