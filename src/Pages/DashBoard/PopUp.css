@@ -1,99 +1,96 @@
 .PopDiv {
-    background-color: rgba(0, 0, 0, 0.9);
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 10;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 10;
 }
 
 #PopupBtn {
-    width: 20%;
-    background-color: #ED9112;
-    color: black;
-    font-weight: bolder;
-    border: none;
+  width: 20%;
+  background-color: #ed9112;
+  color: black;
+  font-weight: bolder;
+  border: none;
 }
 
 #ClosePopup {
-    color: #ED9112;
-    font-size: 6vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 3vh;
+  color: #ed9112;
+  font-size: 6vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3vh;
 }
 
 .SecondDiv {
-    display: flex;
-    animation: popUpAnimation 0.3s ease forwards;
-    flex-direction: column;
-    background-color: black;
-    width: 60%;
-    height: 70%;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 7px;
-    border: 0.5vh solid #ED9112;
-    color: #ED9112;
+  display: flex;
+  animation: popUpAnimation 0.3s ease forwards;
+  flex-direction: column;
+  background-color: black;
+  width: 60%;
+  height: 70%;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 7px;
+  border: 0.5vh solid #ed9112;
+  color: #ed9112;
 }
 
 .PopUpInput {
-    width: 80%;
+  width: 80%;
 }
 
-.PopUpInput>input {
-    width: 80%;
-    border-radius: 7px;
-    background-color: #ED9112;
-    color: black;
-    height: 6vh;
-    padding: 0 2vh;
-    border: none;
+.PopUpInput > input {
+  width: 80%;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+  height: 6vh;
+  padding: 0 2vh;
+  border: none;
+  text-indent: 3%;
+  font-size: larger;
 }
 
-@media screen and (max-width:1000px) {
-    .SecondDiv {
-        width: 90%;
-        height: 80%;
-    }
+@media screen and (max-width: 1000px) {
+  .SecondDiv {
+    width: 90%;
+    height: 80%;
+  }
 
-    .PopUpInput {
-        width: 90%;
-    }
+  .PopUpInput {
+    width: 90%;
+  }
 
-    .PopUpInput>input {
-        width: 90%;
+  .PopUpInput > input {
+    width: 90%;
+  }
 
-    }
+  .PopUpInput > h2 {
+    font-size: 2rem;
+  }
 
-    ;
-
-    .PopUpInput>h2 {
-        font-size: 2rem;
-    }
-
-    #PopupBtn {
-        width: 30%;
-    }
+  #PopupBtn {
+    width: 30%;
+  }
 }
-
-
 
 @keyframes popUpAnimation {
-    from {
-        transform: scale(0.7);
-        opacity: 0;
-    }
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
 
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
